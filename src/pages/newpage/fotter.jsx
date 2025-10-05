@@ -22,7 +22,7 @@ const Footer = () => {
     >
       <div className="max-w-7xl mx-auto px-6 md:pl-16 flex flex-col md:flex-row justify-between gap-10 text-gray-700">
         {/* Left - Logo + Info */}
-        <div className="md:w-1/4 flex-shrink-0">
+        <div className="md:w-1/4 flex-shrink-0 md:mb-2 mb-0">
           <Image
             src="/logo.svg"
             alt="Planet Logo"

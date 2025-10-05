@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16" data-aos="fade-down">
           {/* Logo */}
           <div className="flex items-center">
-            <Image src="/logo.svg" alt="Planet Logo" width={120} height={40} priority />
+            <Image src="/planetlogo.jpg" alt="Planet Logo" width={120} height={40} priority />
           </div>
 
           {/* Desktop Menu */}

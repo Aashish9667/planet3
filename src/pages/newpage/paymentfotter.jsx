@@ -11,7 +11,7 @@ const PaymentFooter = () => {
       <div className="max-w-7xl mx-auto px-6 flex flex-col items-center space-y-4">
         {/* Payment Image */}
         <Image
-          src="/payment1.svg" // make sure this file is in /public
+          src="/payment.svg" // make sure this file is in /public
           alt="Payment methods"
           width={300}
           height={30}

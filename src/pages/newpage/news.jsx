@@ -15,7 +15,7 @@ const blogs = [
     date: "Dec 25, 2025",
     title: "Meet AutoManage, the best AI management tools",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    image: "/image1.png",
+    image: "/image1.jpg",
   },
   {
     id: 2,
