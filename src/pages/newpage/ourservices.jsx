@@ -40,7 +40,7 @@ const Services = () => {
   }, []);
 
   return (
-    <div className=" py-10 px-6 bg-gray-50 mt-15 md:mt-9">
+    <div className=" py-10 px-6 bg-gray-50 text-black mt-15 md:mt-9">
       <div className="max-w-[1100px] mx-auto">
         <h2
           className="text-2xl font-bold  mb-1 text-center "
@@ -84,7 +84,7 @@ const Services = () => {
                       className: "transition-colors duration-500 hover:text-gray-700" 
                   })}
                 </div>
-                <h3 className="text-lg font-semibold mb-2">{service.title}</h3>
+                <h3 className="text-lg font-semibold mb-2 text-black">{service.title}</h3>
                 <p className="text-gray-500 text-sm leading-6">{service.desc}</p>
               </div>
             </SwiperSlide>

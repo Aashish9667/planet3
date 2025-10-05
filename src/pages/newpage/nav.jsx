@@ -86,7 +86,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="md:hidden text-black">
             <button onClick={() => setIsOpen(!isOpen)}>
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -114,27 +114,27 @@ const Navbar = () => {
           {/* Optional: Icons in mobile drawer */}
           <div className="flex items-center space-x-4 mt-6">
             <div className="flex items-center space-x-2 text-sm font-medium">
-              <div className="p-2 rounded-full bg-gray-100">
+              <div className="p-2 rounded-full bg-gray-100 text-black">
                 <Phone size={18} />
               </div>
               <div>
                 <p className="text-xs text-gray-500">Need Help?</p>
-                <p className="font-semibold">+001 123 456 789</p>
+                <p className="font-semibold text-gray-500">+001 123 456 789</p>
               </div>
             </div>
 
-            <div className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 cursor-pointer">
+            <div className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 cursor-pointer text-black">
               <User size={20} />
             </div>
 
-            <div className="relative p-2 rounded-full bg-gray-100 hover:bg-gray-200 cursor-pointer">
+            <div className="relative p-2 rounded-full bg-gray-100 hover:bg-gray-200 cursor-pointer text-black">
               <Heart size={20} />
               <span className="absolute -top-1 -right-1 bg-blue-600 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
                 3
               </span>
             </div>
 
-            <div className="relative p-2 rounded-full bg-gray-100 hover:bg-gray-200 cursor-pointer">
+            <div className="relative p-2 rounded-full bg-gray-100 hover:bg-gray-200 cursor-pointer text-black">
               <ShoppingCart size={20} />
               <span className="absolute -top-1 -right-1 bg-blue-600 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
                 1

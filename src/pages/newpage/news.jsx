@@ -43,7 +43,7 @@ const NewsSection = () => {
       {/* Heading */}
       <div className="text-center mb-12">
         
-        <h2 data-aos="fade-up" className="text-2xl md:text-2xl font-bold mt-4 mb-4">
+        <h2 data-aos="fade-up" className="text-2xl md:text-2xl font-bold mt-4 mb-4 text-black">
           Our Recent News
         </h2>
         <p data-aos="fade-left" className="text-gray-600 max-w-2xl mx-auto">
@@ -85,7 +85,7 @@ const NewsSection = () => {
                   <span className="inline-block bg-blue-600 text-white text-xs px-2 py-1 rounded mb-2">
                     {blog.date}
                   </span>
-                  <h3 className="text-lg font-semibold mb-2">{blog.title}</h3>
+                  <h3 className="text-lg font-semibold mb-2 text-black">{blog.title}</h3>
                   <p className="text-gray-600 text-sm">{blog.desc}</p>
                 </div>
               </div>
